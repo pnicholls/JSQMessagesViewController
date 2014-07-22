@@ -365,7 +365,7 @@ const CGFloat kJSQMessagesCollectionViewCellLabelHeightDefault = 20.0f;
     }
     else if (messageData.kind == JSQMessageLocalMediaKind || messageData.kind == JSQMessageRemoteMediaKind)
     {
-        finalSize = CGSizeMake(100, 100);
+        finalSize = CGSizeMake(200, 200);
     }
     
     [self.messageBubbleSizes setObject:[NSValue valueWithCGSize:finalSize] forKey:indexPath];
